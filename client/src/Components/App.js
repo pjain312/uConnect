@@ -95,7 +95,7 @@ function mapStateToProps(state) {
     home: state.home,
     auth: state.auth,
   };
-}
+};
 
 App.propTypes = {
   posts: PropTypes.array.isRequired,
